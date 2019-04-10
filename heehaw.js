@@ -8,6 +8,8 @@ while (counter <= maxNum) {
         console.log(hee + haw);
     }else if(counter % 3 == 0){
         console.log(hee);
+    }else if(counter % 5 == 0){
+        console.log(haw);
     }
     counter++;
 }
